@@ -103,13 +103,18 @@
         <section class="hero" aria-labelledby="hero-heading">
 
             <div class="hero__media" aria-hidden="true">
-                <img
-                    src="mantenimiento-planta.jpg"
-                    alt=""
-                    class="hero__img"
-                    fetchpriority="high"
+                <video
+                    class="hero__video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
                 >
+                    <source src="hero-video.mp4" type="video/mp4">
+                </video>
+                
                 <div class="hero__overlay"></div>
+                
             </div>
 
             <div class="hero__content">
@@ -336,7 +341,7 @@
                 </div>
                 <div class="cap__media">
                     <img
-                        src="mantenimiento-planta.jpg"
+                        src="mantenimiento-planta.png"
                         alt="Mantenimiento en planta industrial activa"
                         loading="lazy"
                     >
